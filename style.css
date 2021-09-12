@@ -1,0 +1,250 @@
+body{
+    background-image: url("https://cutewallpaper.org/21/hd-modern-wallpapers/Abstract-Background-Wallpaper-Modern-Ultra-Hd-.png");
+    background-size: cover;
+    text-align: center;
+  
+}
+
+
+
+
+button {
+    font-family: 'Anurati', sans-serif;
+   
+    
+}
+h1 {
+ font-family: 'Anurati', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: azure;
+}
+
+.glow-on-hover {
+ font-family: 'Anurati', sans-serif;
+  font-size:19px;
+    width: 125px;
+    height: 44px;
+    border: #FFD700;
+    outline: none;
+    color: #fff;
+    background: #FFF;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+.menu {
+    position: absolute;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    top: 0px;
+    right:30px;
+    z-index: 10px;
+    cursor: pointer;
+}
+
+.items {
+    float: right;
+    color: aliceblue;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 21px;
+}
+
+
+
+.hover-underline-animation {
+    position: relative;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    top: 10px;
+    right:30px;
+    z-index: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+#welcome {
+    position: absolute;
+        height:800px;
+    left: 0;
+    right:0;
+    top:0;
+    bottom:0;
+    opacity:1 ;
+    z-index: 8;
+    width: 100%;
+    display: table;
+    
+    
+}
+
+
+
+
+
+h2 {
+     font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 55px;
+    margin-top: 60px;
+    font-size: 30px;
+     
+}
+
+
+a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+@media screen and (max-height: 300px) {
+	ul {
+		margin-top: 40px;
+	}
+}
+
+}
+
+
+
+
+
+
+
+.hover-underline-animation:after {
+   content:'';
+    position: absolute;
+    width: 100%;
+    transform: scale(0);
+    height:2px ;
+    bottom: 0;
+    left: 0;
+    background-color:#effafc;
+    transform-origin:bottom right;
+    transition: transform 0.25s ease-out;
+    
+
+}
+
+.hover-underline-animation: hover:after {
+ transform: scale(1);
+ transform-origin: bottom left;
+     
+}
+
+li {
+    text-decoration: underline 0.08em rgba(240, 248, 255, 0);
+    transition: text-decoration-color 300ms;
+    
+}
+
+li:hover {
+    text-decoration-color: rgba(240, 248, 255, 1);
+}
+    
+}
+
+
+
+h2 {
+    
+}
+
+#bob {
+font-size: 40px; 
+}
+
+#Mrdog {
+   height:280 ;
+}
+
+#bobby {
+
+height: 280px;
+    width:275px ;
+}
+
+div {
+   align-content: center;
+}
+
+#night {
+    font-size: 25px;
+}
+
+#bite {
+    margin-top: 75px;
+    font-size: 40px;
+    color: aliceblue;
+  font-family: 'Anurati', sans-serif;
+}
+
+#myguy {
+   font-size:50px;
+   padding-top: 20px;
+}
+
+#quinnmyguy {
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    font-size:20px;
+}
+
+#spongebob {
+height:340px;
+width:430px;
+}
